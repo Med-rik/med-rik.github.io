@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medrik's Digital Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .about {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .about img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .product {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        a.button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        a.button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Medrik's Digital Products</h1>
+        <p>Graphic Design and Digital Creations by Ahmed</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <img src="https://via.placeholder.com/150" alt="Medrik Profile Picture">
+            <p>Hi! I'm Ahmed, a 23-year-old graphic designer. I create unique and captivating digital products, including graphic designs, logos, and more. My passion lies in transforming ideas into stunning visuals that tell a story.</p>
+        </section>
+
+        <section id="products" class="products">
+            <h2>Digital Products</h2>
+            <div class="product">
+                <img src="https://via.placeholder.com/200x150" alt="Product 1">
+                <h3>Creative Poster Design</h3>
+                <p>Eye-catching poster design perfect for events, promotions, and personal projects.</p>
+                <a href="#" class="button">View Details</a>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200x150" alt="Product 2">
+                <h3>Logo Package</h3>
+                <p>Unique logo package tailored to your brand identity and vision.</p>
+                <a href="#" class="button">View Details</a>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200x150" alt="Product 3">
+                <h3>Social Media Templates</h3>
+                <p>Ready-to-use social media templates for Instagram, Facebook, and more.</p>
+                <a href="#" class="button">View Details</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>If you're interested in my work or have any questions, feel free to reach out:</p>
+            <p>Email: <a href="mailto:design.bacc@gmail.com">design.bacc@gmail.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Medrik's Digital Products. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
